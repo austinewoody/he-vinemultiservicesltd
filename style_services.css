@@ -1,0 +1,109 @@
+h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fabrication{
+    border: thin solid red;
+    background-color: red;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.coating{
+    border: thin solid green;
+    background-color: green;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.label_flex1{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.services_flex1{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+.offshore_oil{
+    border: thin solid blue;
+    background-color: blue;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.offshore_operation{
+    border: thin solid brown;
+    background-color: brown;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.label_flex2{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+}
+
+.services_flex2{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.project_management{
+    text-align: center;
+}
+
+.project_page{
+    border: thin solid purple;
+    background-color: purple;
+    color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+.label_viz{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.viz{
+    margin-left: 450px;
+    margin-right: 430px;
+    border: thin solid gray;
+    background-color: gray;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    transition: transform 0.5 ease;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
