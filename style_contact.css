@@ -44,7 +44,7 @@
     margin-bottom: 18px;
 }
 
-.request_button{
+.request_form .request_button{
     width: 40vw;
     height: 4vh;
     margin-bottom: 70px;
@@ -65,4 +65,70 @@ iframe{
     height: 60vh;
     margin-left: 10px;
     margin-bottom: 30px;
+}
+
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .request_form input{
+        width: 40vw;
+        height: 4vh;
+        margin-bottom: 18px;
+    }
+
+    .message{
+        width: 40vw;
+        height: 20vh;
+        margin-bottom: 10px;
+    }
+
+    .request_form .request_button{
+        width: 10vw;
+        height: 4vh;
+        margin-bottom: 70px;
+        background-color: blue;
+        color: white;
+        border: thin solid blue;
+        border-radius: 4px;
+    }
+
+    .request_form .request_button:hover{
+        background-color: white;
+        color: black;
+        border: thin solid black;
+    }
+
+    .contact{
+        display: flex;
+        gap: 10rem;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    iframe{
+        width: 90vw;
+        height: 60vh;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+
 }

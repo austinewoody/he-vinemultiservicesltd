@@ -100,3 +100,67 @@ img{
 .technical_staff_image{
     margin-bottom: 30px;
 }
+
+
+@media (min-width: 1200px){
+    .wrapper{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+
+    .flex img{
+        width: 50vw;
+        height: 50vh;
+        margin-left: 250px;
+    }
+
+
+    .logos img{
+        width: 5vw;
+        height: 7vh;
+    }
+
+    .logos{
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .logo_labels{
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .logo_labels p{
+        font-size: 0.7rem;
+    }
+
+    .technical_staff_image{
+        width: 60vw;
+        height: 60vh;
+        margin-left: 180px;
+        margin-bottom: 30px;
+    }
+
+}

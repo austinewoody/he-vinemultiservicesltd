@@ -34,22 +34,22 @@
     color: white;
 }
 
-ul{
+/*ul{
     border: thin solid blue;
     border-radius: 3px;
     background-color: black;
     color: white;
     padding-top: 10px;
     padding-bottom: 50px;
-}
+}*/
 
-label{
+/*label{
     border: thin solid gray;
     border-radius: 3px;
-    background-color: black;
+    background-color: blue;
     color: white;
     text-transform: uppercase;
-}
+}*/
 
 .service_image_group2 img{
     width: 30vw;
@@ -61,7 +61,7 @@ label{
     margin-top: 30px;
 }
 
-.project_management p{
+/*.project_management p{
     border: thin solid blue;
     border-radius: 3px;
     background-color: black;
@@ -70,5 +70,41 @@ label{
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 5px;
+}*/
+
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .service_image_group2 img{
+        width: 15vw;
+        height: 15vh;
+    }
+
+    .services{
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    
 }
+
 

@@ -32,3 +32,24 @@
     border-radius: 5px;
     color: white;
 }
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+}

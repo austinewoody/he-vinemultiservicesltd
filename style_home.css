@@ -104,3 +104,80 @@
     color: white;
     border-radius: 5px;
 }
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+
+    .main .home_image{
+        width: 70vw;
+        height: 60vh;
+        margin-top: 40px;
+        margin-left: 190px;
+        margin-right: 30px;
+    }
+
+    .main .home_paragraph{
+        text-align: center;
+        text-align: justify;
+        margin-left: 170px;
+        margin-right: 130px;
+        line-height: 1.5;
+    }
+
+    .main .overview_image1{
+        width: 40vw;
+        height: 40vh;
+        margin-top: 40px;
+        margin-left: 560px;
+        margin-right: 40px;
+    }
+
+    .main .overview_image2{
+        width: 40vw;
+        height: 40vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .logos img{
+        width: 5vw;
+        height: 7vh;
+    }
+
+    .logos{
+        margin-left: 500px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .logo_labels{
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .logo_labels p{
+        font-size: 0.7rem;
+    }
+
+    
+}
