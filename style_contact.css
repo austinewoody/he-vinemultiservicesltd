@@ -1,39 +1,34 @@
-.message{
-    width: 400px;
-    height: 200px;
+.header img{
+    width: 8vw;
+    height: 8vh;
 }
 
-.request_button{
-    width: 150px;
-    height: 40px;
-    margin-left: 250px;
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-    border: thin solid blue;
+.header h1{
+    font-size: 1.3rem;
+    margin-top: 30px;
 }
 
-.request_button:hover{
-    background-color: white;
-    color: black;
-    border: thin solid black;
-}
-
-input{
-    margin-bottom: 10px;
-    width: 400px;
-    height: 30px;
-    border-radius: 4px;
-    border: thin solid black;
-}
-
-.contact{
+.header{
     display: flex;
-    gap: 400px;
+    gap: 1rem;
     justify-content: center;
 }
 
-iframe{
-    margin-bottom: 100px;
-    margin-left: 500px;
+.header_buttons{
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.header_buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_buttons button{
+    height: 4vh;
+    width: 17vw;
+    background-color: black;
+    border: thin solid black;
+    border-radius: 5px;
+    color: white;
 }
