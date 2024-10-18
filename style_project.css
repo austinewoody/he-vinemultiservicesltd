@@ -32,37 +32,3 @@
     border-radius: 5px;
     color: white;
 }
-
-
-.contact{
-    margin-left: 10px;
-}
-
-.request_form input{
-    width: 80vw;
-    height: 3vh;
-    margin-bottom: 18px;
-}
-
-.request_button{
-    width: 40vw;
-    height: 4vh;
-    margin-bottom: 70px;
-    background-color: blue;
-    color: white;
-    border: thin solid blue;
-    border-radius: 4px;
-}
-
-.message{
-    width: 70vw;
-    height: 15vh;
-    margin-bottom: 10px;
-}
-
-iframe{
-    width: 90vw;
-    height: 60vh;
-    margin-left: 10px;
-    margin-bottom: 30px;
-}

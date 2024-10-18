@@ -17,6 +17,7 @@
 .header_buttons{
     margin-left: 14px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .header_buttons a{
@@ -27,8 +28,47 @@
 .header_buttons button{
     height: 4vh;
     width: 17vw;
-    background-color: black;
+    background-color: blue;
     border: thin solid black;
     border-radius: 5px;
     color: white;
 }
+
+ul{
+    border: thin solid blue;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+label{
+    border: thin solid gray;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.service_image_group2 img{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 5px;
+}
+
+.project_management{
+    margin-top: 30px;
+}
+
+.project_management p{
+    border: thin solid blue;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
