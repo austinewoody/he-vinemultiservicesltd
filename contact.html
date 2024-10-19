@@ -22,20 +22,22 @@
 
         <div class="contact">
             <div class="request_form">
-                <h2>Request Services</h2>
-                <P>Feel free to call us directly or simply complete the form below </P>
-                <label>Name</label><br>
-                <input type="text"><br>
-                <label>Email</label><br>
-                <input type="email"><br>
-                <label>Phone</label><br>
-                <input type="tel"><br>
-                <label>Address</label><br>
-                <input type="text"><br>
-                <label>Description of work or services needed</label><br>
-                <textarea class="message" placeholder="Type message here"></textarea><br>
-                <br>
-                <input class="request_button" type="submit" value="Send Request">
+                <form action="https://formspree.io/f/xdkooqgn" method="post"> 
+                    <h2>Request Services</h2>
+                    <P>Feel free to call us directly or simply complete the form below </P>
+                    <label>Name</label><br>
+                    <input type="text" name="name"><br>
+                    <label>Email</label><br>
+                    <input type="email" name="email"><br>
+                    <label>Phone</label><br>
+                    <input type="tel" name="tel"><br>
+                    <label>Address</label><br>
+                    <input type="text" name="address"><br>
+                    <label>Description of work or services needed</label><br>
+                    <textarea class="message" placeholder="Type message here" name="message"></textarea><br>
+                    <br>
+                    <input class="request_button" type="submit" value="Send Request">
+                </form>
             </div>
             
     
