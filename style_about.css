@@ -17,6 +17,7 @@
 .header_buttons{
     margin-left: 14px;
     margin-top: 20px;
+    display: none;
 }
 
 .header_buttons a{
@@ -32,6 +33,58 @@
     border-radius: 5px;
     color: white;
 }
+
+
+.hamburger{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hamburger span{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+}
+
+.links{
+    background-color: black;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+.slide-right{
+    animation: slideRight 0.3s forwards ease;
+}
+
+@keyframes slideRight{
+    0%{
+        left: -80%;
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.links ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+}
+
 
 
 .heading{
@@ -108,6 +161,15 @@ img{
         margin-right: 60px;
     }
 
+    .hamburger{
+        display: none;
+    }
+
+    .links{
+        display: none;
+    }
+
+
     .header img{
         width: 5vw;
         height: 10vh;
@@ -125,6 +187,7 @@ img{
     .header_buttons{
         margin-left: 250px;
         margin-top: 20px;
+        display: block;
     }
 
     .flex img{
