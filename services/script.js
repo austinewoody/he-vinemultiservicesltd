@@ -11,3 +11,11 @@ hamburger.addEventListener("click", function display(){
         links.classList.remove("slide-right");
     }
 });
+
+
+document.addEventListener("click", function display(event) {
+    // If the click is outside the hamburger or links, close the menu
+    if (!hamburger.contains(event.target) && !links.contains(event.target)) {
+        links.style.display = "none";
+    }
+});
