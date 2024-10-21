@@ -1,0 +1,55 @@
+.header img{
+    width: 8vw;
+    height: 8vh;
+}
+
+.header h1{
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.header{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header_buttons{
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.header_buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_buttons button{
+    height: 4vh;
+    width: 17vw;
+    background-color: blue;
+    border: thin solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+}

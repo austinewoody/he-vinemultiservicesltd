@@ -1,0 +1,247 @@
+.header img{
+    width: 8vw;
+    height: 8vh;
+}
+
+.header h1{
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.header{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.hamburger{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.hamburger span{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+}
+
+.links{
+    background-color: black;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    position: absolute;
+    display: none;
+    left: 0;
+}
+
+.slide-right{
+    animation: slideRight 0.3s forwards ease;
+}
+
+@keyframes slideRight{
+    0%{
+        left: -80%;
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.links ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+}
+
+
+
+.header_buttons{
+    margin-left: 14px;
+    margin-top: 20px;
+    display: none;
+}
+
+.header_buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_buttons button{
+    height: 4vh;
+    width: 17vw;
+    background-color: blue;
+    border: thin solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.main .home_image{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main .what{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.main .overview_image1{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main .overview_image2{
+    width: 80vw;
+    height: 30vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.main .home_paragraph{
+    text-align: center;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+.partners{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.logo_labels p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.logo_labels{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logos img{
+    width: 17vw;
+    height: 5vh;
+}
+
+.logos{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.contact_info{
+    text-align: center;
+    border: thin solid rgb(40, 39, 39);
+    background-color: rgb(40, 39, 39);
+    color: white;
+    border-radius: 5px;
+}
+
+@media (min-width: 1200px){
+    .header img{
+        width: 5vw;
+        height: 10vh;
+    }
+
+    .header_buttons button{
+        height: 4vh;
+        width: 10vw;
+        background-color: blue;
+        border: thin solid black;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header_buttons{
+        margin-left: 300px;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .main .home_image{
+        width: 70vw;
+        height: 60vh;
+        margin-top: 40px;
+        margin-left: 190px;
+        margin-right: 30px;
+    }
+
+    .main .home_paragraph{
+        text-align: center;
+        text-align: justify;
+        margin-left: 170px;
+        margin-right: 130px;
+        line-height: 1.5;
+    }
+
+    .main .overview_image1{
+        width: 40vw;
+        height: 40vh;
+        margin-top: 40px;
+        margin-left: 560px;
+        margin-right: 40px;
+    }
+
+    .main .overview_image2{
+        width: 40vw;
+        height: 40vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+
+    .logos img{
+        width: 5vw;
+        height: 7vh;
+    }
+
+    .logos{
+        margin-left: 500px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .logo_labels{
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .logo_labels p{
+        font-size: 0.7rem;
+    }
+
+    
+}
