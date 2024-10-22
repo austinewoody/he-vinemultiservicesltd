@@ -19,3 +19,7 @@ document.addEventListener("click", function display(event) {
         links.style.display = "none";
     }
 });
+
+window.addEventListener("scroll", function display(){
+    links.style.display = "none";
+})
