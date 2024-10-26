@@ -240,13 +240,14 @@
     }
 
     .logos{
-        margin-left: 500px;
+        margin-left: 600px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
 
     .logo_labels{
         display: flex;
+        gap: 2rem;
         justify-content: center;
         margin-left: 60px;
         margin-right: 60px;
