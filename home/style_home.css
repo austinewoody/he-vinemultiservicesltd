@@ -257,5 +257,11 @@
         font-size: 0.7rem;
     }
 
+    .contact_info{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
     
 }
